@@ -1,0 +1,20 @@
+{
+  "name": "import-excel-to-bd",
+  "version": "1.0.0",
+  "description": "Test of extract and import .xlsx data to mysql database",
+  "main": "index.js",
+  "scripts": {
+    "import": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "João Paulo Mazzo <mazzojp@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "excel-stream": "^1.1.1",
+    "knex": "^2.3.0",
+    "mysql": "^2.18.1",
+    "node-xlsx": "^0.21.0",
+    "xlsx": "^0.18.5"
+  }
+}
